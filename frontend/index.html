@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebSocket Chat</title>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <h1>WebSocket Chat with Message Prioritization</h1>
+    <input type="text" placeholder="Enter your message">
+    
+    <!-- Priority selection dropdown -->
+    <select>
+        <option value="critical">High Priority (Critical)</option>
+        <option value="normal">Medium Priority (Normal)</option>
+        <option value="status">Low Priority (Status)</option>
+    </select>
+
+    <button>Send</button>
+    <ul id="messages"></ul>
+  </body>
+</html>
