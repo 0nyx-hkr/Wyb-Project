@@ -7,7 +7,7 @@ This project demonstrates a simple WebSocket-based messaging system with message
 * **frontend/**  
   * `index.html`: The HTML page where users can join the WebSocket and send messages.  
   * `app.js`: The JavaScript file that connects to the WebSocket server and handles message sending and receiving.  
-* **websocket/**  
+* **socket/**  
   * `server.js`: The WebSocket server code that handles message broadcasting and prioritization using Redis.
 
 ## **Prerequisites**
