@@ -51,7 +51,7 @@ bash
 
 bash  
 Copy code  
-`cd websocket`  
+`cd socket`  
 `npm install`
 
 ### **Step 3: Start Redis Server Locally**
@@ -76,7 +76,7 @@ Once Redis is running, start the WebSocket server:
 
 bash  
 Copy code  
-`cd websocket`  
+`cd socket`  
 `node server.js`
 
 This will start the WebSocket server on `ws://localhost:8000`.
